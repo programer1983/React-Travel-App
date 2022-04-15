@@ -45,6 +45,12 @@
     transition: 250ms;
 } 
 
+.navbar__menu {
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 800px) {
     .navbar__list {
@@ -87,12 +93,12 @@
         align-items: center;
         margin: 0px;
         border-width: 0px;
-        border-color: black;
+        background-color: black;
         opacity: 0.75;
     }
 
     .navbar__link:hover {
         border-width: 0px;
-        opacity: 0.9px;
+        opacity: 0.9;
     }  
 }
